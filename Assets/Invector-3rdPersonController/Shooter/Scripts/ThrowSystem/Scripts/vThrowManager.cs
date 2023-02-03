@@ -273,7 +273,7 @@ namespace Invector.vCharacterController
 
         protected virtual void DrawTrajectory()
         {
-            var points = GetTrajectoryPoints(startPoint, StartVelocity, lineStepPerTime, lineMaxTime);
+            var points = GetTrajectoryPoints(startPoint, StartVelocity*5, lineStepPerTime, lineMaxTime);
             if (lineRenderer)
             {
                 if (!lineRenderer.enabled)
@@ -426,7 +426,7 @@ namespace Invector.vCharacterController
                     var force = Mathf.Clamp(dist, 0, throwMaxForce);
                     //var rotation = Quaternion.LookRotation(aimDirection.normalized, Vector3.up);
                     var dir = aimDirection.normalized;
-                    return dir * force;
+                    return dir * dist*2;
                 }
                 else
                 {
