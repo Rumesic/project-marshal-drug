@@ -29,6 +29,7 @@ namespace Invector
         private vThirdPersonController currentController;
         public static vGameController instance;
         private GameObject oldPlayer;
+        public GameObject canvasDefeat;
 
         public UnityEvent onSpawn;
         public bool dontDestroyOnLoad = true;
@@ -100,6 +101,7 @@ namespace Invector
                     vHUDController.instance.ShowText("Restarting Scene...");
                 }
 
+                
                 Invoke("ResetScene", respawnTimer);
             }
         }
@@ -325,6 +327,14 @@ namespace Invector
         /// </summary>
         public virtual void ResetScene()
         {
+            var sceneManagement = GameObject.FindObjectOfType<SceneManagement>(true);
+
+            if (sceneManagement != null)
+            {
+                sceneManagement.gameObject.SetActive(true);
+                return;
+            }
+
             if (oldPlayer)
             {
                 DestroyPlayerComponents(oldPlayer);
