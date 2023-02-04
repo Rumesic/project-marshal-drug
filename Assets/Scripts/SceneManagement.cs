@@ -9,25 +9,31 @@ public class SceneManagement : MonoBehaviour
     GameObject canvasZasluge;
 
     [SerializeField]
+    GameObject loadingCanvas;
+
+    [SerializeField]
     AudioSource musicSource;
 
     public void LoadLevel()
     {
-        StartCoroutine(AudioSourceFade.FadeAudio(musicSource, 0, 1f));
+        if(musicSource)
+        {
+            StartCoroutine(AudioSourceFade.FadeAudio(musicSource, 0, 1f));
+        }
+
+        loadingCanvas.gameObject.SetActive(true);
+        loadingCanvas.GetComponent<Animator>().SetTrigger("LoadOut");
 
         Invoke("LoadScene", 1.5f);
     }
 
-    public void LoadScene()
+    private void LoadScene()
     {
         SceneManager.LoadScene(1);
     }
 
 
-    public void LoadMainMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
+ 
 
     public void Quit()
     {
