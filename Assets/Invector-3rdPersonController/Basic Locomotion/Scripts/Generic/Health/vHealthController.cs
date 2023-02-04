@@ -116,6 +116,11 @@ namespace Invector
         {
             get
             {
+                if(isCommunistHealth)
+                {
+                    return (currentHealth > 0 && healthRecovery < 0);
+                }
+                
                 return (currentHealth >= 0 && healthRecovery > 0 && currentHealth < maxHealth);
             }
         }
