@@ -1812,7 +1812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startDamage: 0.25
   endDamage: 0.6
-  damageMultiplier: 0
+  damageMultiplier: 5
   recoilID: 0
   reactionID: 0
   meleeAttackType: 0
