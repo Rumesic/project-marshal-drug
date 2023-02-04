@@ -906,7 +906,7 @@ namespace Invector.vItemManager
                     }
                 }
             }
-            inventory.UpdateInventory();
+           // inventory.UpdateInventory();  Commented ico
         }
 
         /// <summary>
