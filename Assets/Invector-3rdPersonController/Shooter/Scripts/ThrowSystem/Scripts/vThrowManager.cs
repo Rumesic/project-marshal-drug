@@ -273,7 +273,7 @@ namespace Invector.vCharacterController
 
         protected virtual void DrawTrajectory()
         {
-            var points = GetTrajectoryPoints(startPoint, StartVelocity*5, lineStepPerTime, lineMaxTime);
+            var points = GetTrajectoryPoints(startPoint, StartVelocity, lineStepPerTime, lineMaxTime);
             if (lineRenderer)
             {
                 if (!lineRenderer.enabled)
@@ -454,7 +454,7 @@ namespace Invector.vCharacterController
                     break;
                 }
 
-                Vector3 pos = PlotTrajectoryAtTime(start, startVelocity, t);
+                Vector3 pos = PlotTrajectoryAtTime(start,2* startVelocity, t);
                 RaycastHit hit;
                 if (Physics.Linecast(prev, pos, out hit, obstacles))
                 {
