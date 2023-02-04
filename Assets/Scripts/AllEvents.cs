@@ -93,9 +93,7 @@ public class AllEvents : MonoBehaviour
 
     public void LoseControlPlayer()
     {
-
         inputScript.SetLockAllInput(true);
-      
     }
 
     public void GainControlPlayer()

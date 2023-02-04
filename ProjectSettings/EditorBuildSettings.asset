@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9addfd42f2d69894e80399a77896e733
+  - enabled: 1
+    path: Assets/Scenes/IcoScene/Rijeka Test Scene Ico.unity
+    guid: ba9cb218900e3de41a0226cca6aa074f
   m_configObjects: {}
