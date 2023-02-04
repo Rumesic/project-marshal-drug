@@ -15,6 +15,8 @@ namespace Invector
         [SerializeField][vReadOnly] protected bool _isDead;
         [vBarDisplay("maxHealth")][SerializeField] protected float _currentHealth;
         public bool isImmortal = false;
+        public bool isCommunistHealth = false;
+      
         [vHelpBox("If you want to start with different value, uncheck this and make sure that the current health has a value greater zero")]
         public bool fillHealthOnStart = true;
         public int maxHealth = 100;
@@ -40,11 +42,20 @@ namespace Invector
                 if (_currentHealth != value)
                 {
                     _currentHealth = value;
+                    
+               
+                    
                     _currentHealth = Mathf.Clamp(_currentHealth, 0, MaxHealth);
                     onChangeHealth.Invoke(_currentHealth);
                     HandleCheckHealthEvents();
                 }
+              
                 var newDeathState = _currentHealth <= 0;
+                if (isCommunistHealth)
+                {
+                    newDeathState = currentHealth >= 100;
+                }
+
                 if (newDeathState != isDead)
                 {
                     isDead = newDeathState;
@@ -90,7 +101,14 @@ namespace Invector
         protected virtual void Start()
         {
             if (fillHealthOnStart)
+            {
+                if(isCommunistHealth)
+                {
+                    currentHealth = 1;
+                }    
                 currentHealth = maxHealth;
+
+            }
             currentHealthRecoveryDelay = healthRecoveryDelay;
         }
 
@@ -196,10 +214,15 @@ namespace Invector
                 onStartReceiveDamage.Invoke(damage);
                 currentHealthRecoveryDelay = currentHealth <= 0 ? 0 : healthRecoveryDelay;
 
-                if (currentHealth > 0 && !isImmortal)
+                if(isCommunistHealth)
+                {
+                    currentHealth += damage.damageValue;
+                }
+                else if (currentHealth > 0 && !isImmortal)
                 {
                     currentHealth -= damage.damageValue;
                 }
+
 
                 if (damage.damageValue > 0)
                     onReceiveDamage.Invoke(damage);
