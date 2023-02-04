@@ -2266,6 +2266,7 @@ MonoBehaviour:
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
+  isCommunistHealth: 0
   fillHealthOnStart: 1
   maxHealth: 50
   healthRecovery: 0
@@ -2404,7 +2405,7 @@ MonoBehaviour:
   openCloseWindow: 1
   selectedToolbar: 0
   defaultDamageEffects:
-  - {fileID: 120346, guid: b8f2fe1ee1a01724cb72f5b0e6bd2eef, type: 3}
+  - {fileID: 4237779676366179707, guid: 72b94d5a26813d04a92d70ff6292902c, type: 3}
   customDamageEffects: []
 --- !u!114 &6671696958478547012
 MonoBehaviour:
