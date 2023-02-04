@@ -23,7 +23,7 @@ public class AllEvents : MonoBehaviour
 
     public void FirstWaweEvent()
     {
-        FunctionTimer.Create(EndFirstWaweEvent, 3);
+        FunctionTimer.Create(EndFirstWaweEvent, 30);
         //audio source activate 
         //Counter za zombije i timer
         //trigger voice line 
@@ -48,7 +48,7 @@ public class AllEvents : MonoBehaviour
         // Cont pozicija
 
         // kill most of the zombies and/or timer
-        FunctionTimer.Create(EndSecondWaweEvent, 5);
+        FunctionTimer.Create(EndSecondWaweEvent, 50);
 
         //audio source activate 
         //trigger voice line 
@@ -76,14 +76,7 @@ public class AllEvents : MonoBehaviour
 
         dialogAnim.SetTrigger("DialogIntro");
     }
-     
-    public void DeathEvent()
-    {
-        //dode maca na vratanca death
-
-    }
-
-
+  
 
 
     public void StopAnimator()
