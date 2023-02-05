@@ -3,6 +3,7 @@ using Invector.vCharacterController.TopDownShooter;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AllEvents : MonoBehaviour
 {
@@ -14,6 +15,12 @@ public class AllEvents : MonoBehaviour
     [SerializeField]
     vThirdPersonController moveControl;
 
+    [SerializeField]
+    AudioMixer audioMixer;
+    public void Awake()
+    {
+        StartCoroutine(AudioSourceFade.FadeAudioMixer(audioMixer, "GameSounds", 1, 1f));
+    }
 
     public void VoiceActPrvi()
     {
@@ -60,7 +67,7 @@ public class AllEvents : MonoBehaviour
 
     public void EndSecondWaweEvent()
     {
-        
+        //barikade se uniste
     }
 
     public void StartBossFight()

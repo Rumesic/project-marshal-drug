@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class SceneManagement : MonoBehaviour
@@ -14,9 +15,20 @@ public class SceneManagement : MonoBehaviour
     [SerializeField]
     AudioSource musicSource;
 
+    [SerializeField]
+    AudioMixer audioMixer;
+
+    public void Awake()
+    {
+        StartCoroutine(AudioSourceFade.FadeAudioMixer(audioMixer, "GameSounds", 1, -1f));
+
+    }
     public void LoadLevel()
     {
-        if(musicSource)
+
+
+
+        if (musicSource)
         {
             StartCoroutine(AudioSourceFade.FadeAudio(musicSource, 0, 1f));
         }

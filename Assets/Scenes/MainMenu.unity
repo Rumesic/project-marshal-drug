@@ -1196,6 +1196,7 @@ MonoBehaviour:
   canvasZasluge: {fileID: 2084920348}
   loadingCanvas: {fileID: 1217379407}
   musicSource: {fileID: 1622981894}
+  audioMixer: {fileID: 24100000, guid: ad910911f5cd4344c97575ac40fc9851, type: 2}
 --- !u!4 &1470417468
 Transform:
   m_ObjectHideFlags: 0

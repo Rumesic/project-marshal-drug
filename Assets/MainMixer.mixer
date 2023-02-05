@@ -49,6 +49,20 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-3020606770190781525
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 43a394b52653c084b8f646a1f102fdee
+  m_EffectName: Attenuation
+  m_MixLevel: 78fae4336664b9247a9c54959e9be10b
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-1793271110761408415
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -83,13 +97,16 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: f39d86cce85ce7646abdc56bf435364e
+    name: GameSounds
   m_AudioMixerGroupViews:
   - guids:
     - f5072e6e20c354c479c4612ad7e5f943
     - a00a17d5b0c7dd14098f2581f6670b89
     - 7a17b91ff0b32954c922c957217e74be
     - 334afcc68f0dc564c90f421807ee393b
+    - beab1ad0da7054648a95e6832d7c0a22
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -104,6 +121,7 @@ AudioMixerGroupController:
   m_GroupID: f5072e6e20c354c479c4612ad7e5f943
   m_Children:
   - {fileID: 6899012007943665942}
+  - {fileID: 7915407814813451649}
   m_Volume: 8956a4d60ce714f45b9ca9033b23f15e
   m_Pitch: 307d7b8bb876f1a4c8d38680d70eef36
   m_Send: 00000000000000000000000000000000
@@ -142,6 +160,8 @@ AudioMixerSnapshotController:
     070ff8e70bbfbd341847ad266c1cf890: 1868
     29097aa8900099b409560f867da3c8a4: 4.02
     e2294c1cb1a26354494a25a0c6155de3: 0.035
+    f39d86cce85ce7646abdc56bf435364e: 0.10800299
+    22b4124ef0de9174fb169f22b6d879c8: -0.08374829
   m_TransitionOverrides: {}
 --- !u!244 &2102750237676560211
 AudioMixerEffectController:
@@ -292,6 +312,25 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &7915407814813451649
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: UISounds
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: beab1ad0da7054648a95e6832d7c0a22
+  m_Children: []
+  m_Volume: 532eeff6225f8d84a9d25808bdfa22dc
+  m_Pitch: a925ac1cc05a7f34b9ec84accb8e907e
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -3020606770190781525}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &9079359058513145685
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
