@@ -11,7 +11,7 @@ public class ZombieSpawnList : MonoBehaviour
 
     public int currentZombieCounter = 0;
 
-    public SpawnPlaces[] spawnPlaces;
+    SpawnPlaces[] spawnPlaces;
     public GameObject[] activationPlaces;
 
     public void Awake()

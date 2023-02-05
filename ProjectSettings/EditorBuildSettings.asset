@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9addfd42f2d69894e80399a77896e733
+  - enabled: 1
+    path: Assets/Scenes/Rijeka_Playable.unity
+    guid: 25120fae637277e499f6b4770b5fd5ef
   m_configObjects: {}

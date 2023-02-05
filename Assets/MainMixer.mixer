@@ -83,7 +83,9 @@ AudioMixerController:
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
-  m_ExposedParameters: []
+  m_ExposedParameters:
+  - guid: f39d86cce85ce7646abdc56bf435364e
+    name: GameSounds
   m_AudioMixerGroupViews:
   - guids:
     - f5072e6e20c354c479c4612ad7e5f943
@@ -145,7 +147,7 @@ AudioMixerSnapshotController:
     29097aa8900099b409560f867da3c8a4: 4.02
     e2294c1cb1a26354494a25a0c6155de3: 0.035
     f39d86cce85ce7646abdc56bf435364e: 9.925886
-    8f64653ed3b7a4c4689133e47b02c38a: 10.437403
+    8f64653ed3b7a4c4689133e47b02c38a: -0.037667945
     22b4124ef0de9174fb169f22b6d879c8: -9.833286
     01871deedfd7b70489e16467f3043f00: -4.560346
   m_TransitionOverrides: {}
