@@ -27,6 +27,8 @@ public class AllEvents : MonoBehaviour
     [SerializeField]
     AudioMixer audioMixer;
 
+    [SerializeField]
+    GameObject victoryCanvas;
 
     public void Awake()
     {
@@ -122,6 +124,12 @@ public class AllEvents : MonoBehaviour
         Debug.Log("Start Boss fight");
 
     }
+
+    public void StartVictoryEvent()
+    {
+        victoryCanvas.gameObject.SetActive(true);
+    }
+
 
 
 
