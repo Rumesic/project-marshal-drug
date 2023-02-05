@@ -18,10 +18,14 @@ public class SceneManagement : MonoBehaviour
     [SerializeField]
     AudioMixer audioMixer;
 
+    public Texture2D cursor;
     public void Awake()
     {
         StartCoroutine(AudioSourceFade.FadeAudioMixer(audioMixer, "GameSounds", 1, -1f));
-
+        Cursor.visible = true;
+        
+        Cursor.SetCursor(cursor, Vector2.zero, CursorMode.Auto);
+        //Set Cursor to not be visible
     }
     public void LoadLevel()
     {
