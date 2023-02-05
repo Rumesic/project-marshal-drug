@@ -1,20 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CarEventTito : MonoBehaviour
 {
+    public UnityEvent enableZombiesAndPlayer;
+
     [SerializeField] AudioSource sourceCar;
     [SerializeField] AudioSource sourceGovor;
     [SerializeField] Animation anim;
 
     [SerializeField] float trajanjeGovora;
     [SerializeField] float trajanjePaljenja;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
+  
 
     // Update is called once per frame
     void Update()
@@ -44,7 +43,7 @@ public class CarEventTito : MonoBehaviour
 
     public void EnableZombiesAndPlayer()
     {
-
+        enableZombiesAndPlayer?.Invoke();
     }
 
     public void DisableZombiesAndPlayer()

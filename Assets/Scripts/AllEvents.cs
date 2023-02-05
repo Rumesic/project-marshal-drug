@@ -17,7 +17,7 @@ public class AllEvents : MonoBehaviour
     public Animator ContLitTheWay;
     public GameObject zombieCounterCont;
     public GameObject zombieCounterTito;
-
+    public CarEventTito titoEvents;
 
     Animator dialogAnim;
 
@@ -118,8 +118,12 @@ public class AllEvents : MonoBehaviour
         //Add voice
         ContValBarricadeEnd.CloseBarricade();
         ContLitTheWay.SetTrigger("TurnOff");
-        //  dialogAnim.SetTrigger("DialogIntro");
+
+        zombieCounterTito.SetActive(true);
         LoseControlPlayer();
+
+        titoEvents.StartGovor();
+        //  dialogAnim.SetTrigger("DialogIntro");
 
         Debug.Log("Start Boss fight");
 
