@@ -31,6 +31,14 @@ public class AllEvents : MonoBehaviour
     public void Awake()
     {
         StartCoroutine(AudioSourceFade.FadeAudioMixer(audioMixer, "GameSounds", 1, 1f));
+       
+    }
+
+    private void Start()
+    {
+        //Set Cursor to not be visible
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     public void VoiceActPrvi()

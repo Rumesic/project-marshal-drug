@@ -1639,7 +1639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openCloseEvents: 0
   openCloseWindow: 1
-  selectedToolbar: 2
+  selectedToolbar: 0
   _isDead: 0
   _currentHealth: 0
   isImmortal: 0
@@ -1666,7 +1666,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   deathBy: 2
-  removeComponentsAfterDie: 0
+  removeComponentsAfterDie: 1
   debugActionListener: 0
   OnCrouch:
     m_PersistentCalls:
@@ -1719,10 +1719,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   sortTargetFromDistance: 0
-  fieldOfView: 210
+  fieldOfView: 360
   maxDetectDistance: 25
-  minDetectDistance: 25
-  distanceToLostTarget: 25
+  minDetectDistance: 30
+  distanceToLostTarget: 100
   chaseStopDistance: 1
   drawAgentPath: 0
   displayGizmos: 1
@@ -1753,6 +1753,7 @@ MonoBehaviour:
     colliderTarget: {fileID: 0}
   canSeeTarget: 0
   actions: 0
+  RemoveAfterTimeComponents: 5
   stateRoutineIteration: 0.1
   destinationRoutineIteration: 0.1
   findTargetIteration: 0

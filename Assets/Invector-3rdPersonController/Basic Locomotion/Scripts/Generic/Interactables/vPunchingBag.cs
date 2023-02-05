@@ -29,9 +29,12 @@ namespace Invector.vCharacterController
                 joint.connectedBody = null;
                 if (removeComponentsAfterDie)
                 {
-                    foreach (MonoBehaviour mono in character.gameObject.GetComponentsInChildren<MonoBehaviour>())
-                        if (mono != this)
-                            Destroy(mono);
+                  
+                        foreach (MonoBehaviour mono in character.gameObject.GetComponentsInChildren<MonoBehaviour>())
+                            if (mono != this)
+                                Destroy(mono);
+                   
+               
                 }
             }
 
