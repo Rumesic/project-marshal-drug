@@ -17,6 +17,7 @@ public class ZombieTalkingScript : MonoBehaviour
 
     private void Start()
     {
+
         var randomRepeatTime = Random.Range(3, 5);
         InvokeRepeating("ZombieTalk", randomRepeatTime, randomRepeatTime);
     }
@@ -26,8 +27,8 @@ public class ZombieTalkingScript : MonoBehaviour
         if(simpleController.isDead)
         { return; }
         
-        var random = Random.Range(0, 6);
-        if(random>4)
+        var random = Random.Range(0, 7);
+        if (random>3)
         {
             audioSource.PlayOneShot(clips[Random.Range(0, clips.Length)]);
         }

@@ -1778,7 +1778,7 @@ AudioSource:
   m_GameObject: {fileID: 2336371465633152098}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: -1793271110761408415, guid: ad910911f5cd4344c97575ac40fc9851, type: 2}
+  OutputAudioMixerGroup: {fileID: 6899012007943665942, guid: ad910911f5cd4344c97575ac40fc9851, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -1790,7 +1790,7 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0
-  MaxDistance: 40
+  MaxDistance: 20
   Pan2D: 0
   rolloffMode: 1
   BypassEffects: 0
@@ -1879,16 +1879,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 8362222798939847585}
   clips:
-  - {fileID: 8300000, guid: 818977a4c087ba84c850add89b52d169, type: 3}
-  - {fileID: 8300000, guid: e0eb8d1db3e78644d91a55867c743c37, type: 3}
-  - {fileID: 8300000, guid: c22783d87d4115647a7ac6cd8a128c20, type: 3}
-  - {fileID: 8300000, guid: 245136d0d8b7c3749aadee9aff5703a3, type: 3}
-  - {fileID: 8300000, guid: 885921b1f22b03c4ea2a72710092bb51, type: 3}
-  - {fileID: 8300000, guid: 72166633b9a33df49b1c7dd46a212eb4, type: 3}
-  - {fileID: 8300000, guid: 224b63efdb81fec4fad3a6a5cfde8bc8, type: 3}
-  - {fileID: 8300000, guid: 10985e0a98068c944b35d7025cbac53e, type: 3}
-  - {fileID: 8300000, guid: 2ee2406ca1e8f7c4b97dd764b1a47e71, type: 3}
-  - {fileID: 8300000, guid: 08fee9000d2110549ad7d0f93ac2f983, type: 3}
+  - {fileID: 8300000, guid: 15881cee0707c22429f3789209d25a64, type: 3}
+  - {fileID: 8300000, guid: f6418dcaaf7bb50469f79c6746ac1796, type: 3}
+  - {fileID: 8300000, guid: 3fbdc9944554ec54198addbc40afc3a3, type: 3}
+  - {fileID: 8300000, guid: f4d6da8dad698aa4eb7420e456ac9fb2, type: 3}
+  - {fileID: 8300000, guid: 6c15934cef6c99348afffc43f6f04043, type: 3}
+  - {fileID: 8300000, guid: ba60e6f365915b347ad67329f0adff87, type: 3}
+  - {fileID: 8300000, guid: bd8d57d312a923547a37153b47ea5a8c, type: 3}
+  - {fileID: 8300000, guid: d0d7049580d8f9b439a1ce07aa584c35, type: 3}
+  - {fileID: 8300000, guid: 2590e0c66934cfc4b8d87b6b21aa163d, type: 3}
+  - {fileID: 8300000, guid: 012835355d5f67245b50e89c7cac7ff5, type: 3}
+  - {fileID: 8300000, guid: f9cce5203a0c2b04ab1f29536b66a5c7, type: 3}
+  - {fileID: 8300000, guid: bf2113dda65e92c40abfd26d84e0bb1a, type: 3}
   simpleController: {fileID: 3219260823022944515}
 --- !u!1 &2504971507384002630
 GameObject:

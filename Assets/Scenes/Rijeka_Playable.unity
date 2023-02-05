@@ -25553,10 +25553,54 @@ PrefabInstance:
       propertyPath: removeComponentsAfterDie
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: bd8d57d312a923547a37153b47ea5a8c, type: 3}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: d0d7049580d8f9b439a1ce07aa584c35, type: 3}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2590e0c66934cfc4b8d87b6b21aa163d, type: 3}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 012835355d5f67245b50e89c7cac7ff5, type: 3}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: f9cce5203a0c2b04ab1f29536b66a5c7, type: 3}
+    - target: {fileID: 5014088536459125155, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: clips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: bf2113dda65e92c40abfd26d84e0bb1a, type: 3}
+    - target: {fileID: 8362222798939847585, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8362222798939847585, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: MaxDistance
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
+    - target: {fileID: 8362222798939847585, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: d0d7049580d8f9b439a1ce07aa584c35, type: 3}
+    - target: {fileID: 8362222798939847585, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8362222798939847585, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: 6736237628460566284, guid: ad910911f5cd4344c97575ac40fc9851, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
 --- !u!4 &1791442765 stripped
