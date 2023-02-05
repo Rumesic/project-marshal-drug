@@ -1879,12 +1879,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioSource: {fileID: 8362222798939847585}
   clips:
-  - {fileID: 8300000, guid: 15881cee0707c22429f3789209d25a64, type: 3}
-  - {fileID: 8300000, guid: f6418dcaaf7bb50469f79c6746ac1796, type: 3}
-  - {fileID: 8300000, guid: 3fbdc9944554ec54198addbc40afc3a3, type: 3}
-  - {fileID: 8300000, guid: f4d6da8dad698aa4eb7420e456ac9fb2, type: 3}
-  - {fileID: 8300000, guid: 6c15934cef6c99348afffc43f6f04043, type: 3}
-  - {fileID: 8300000, guid: ba60e6f365915b347ad67329f0adff87, type: 3}
   - {fileID: 8300000, guid: bd8d57d312a923547a37153b47ea5a8c, type: 3}
   - {fileID: 8300000, guid: d0d7049580d8f9b439a1ce07aa584c35, type: 3}
   - {fileID: 8300000, guid: 2590e0c66934cfc4b8d87b6b21aa163d, type: 3}

@@ -16,11 +16,12 @@ public class AllEvents : MonoBehaviour
     public MoveBarricade ContValBarricadeEnd;
     public Animator ContLitTheWay;
     public GameObject zombieCounterCont;
-
+    public GameObject zombieCounterTito;
 
 
     Animator dialogAnim;
 
+    [SerializeField]
     vTopDownShooterInput inputScript;
     vThirdPersonController moveControl;
 
@@ -51,7 +52,6 @@ public class AllEvents : MonoBehaviour
 
     public void FirstWaweEvent()
     {
-        FunctionTimer.Create(EndFirstWaweEvent, 60);
         //audio source activate 
 
        
@@ -93,8 +93,6 @@ public class AllEvents : MonoBehaviour
         //trigger voice line 
 
 
-
-
     }
 
     public void EndSecondWaweEvent()
@@ -102,10 +100,11 @@ public class AllEvents : MonoBehaviour
         ContValBarricadeEnd.OpenBarricade();
         ContLitTheWay.SetTrigger("TurnOn");
         //barikade se uniste
+        zombieCounterTito.gameObject.SetActive(true);
 
-        Debug.Log("End Second Wawe event");
     }
 
+    [ContextMenu("StartBossFight")]
     public void StartBossFight()
     {
         //mrtvi kanal
@@ -120,6 +119,7 @@ public class AllEvents : MonoBehaviour
         ContValBarricadeEnd.CloseBarricade();
         ContLitTheWay.SetTrigger("TurnOff");
         //  dialogAnim.SetTrigger("DialogIntro");
+        LoseControlPlayer();
 
         Debug.Log("Start Boss fight");
 

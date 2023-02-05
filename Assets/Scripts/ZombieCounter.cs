@@ -8,14 +8,16 @@ public class ZombieCounter : MonoBehaviour
     [SerializeField]
     UnityEvent eventValGotov;
     bool activatedOnce = false;
+    public int numberCounter = 8;
+
+
     private void Update()
     {
         if(activatedOnce)
         {
-       
           return; }
 
-        if(transform.childCount<8)
+        if(transform.childCount< numberCounter)
         {
             activatedOnce = true;
             eventValGotov?.Invoke();
