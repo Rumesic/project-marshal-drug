@@ -211,9 +211,10 @@ namespace Invector.vCharacterController.AI
 
         #endregion
 
+        public float RemoveAfterTimeComponents = 5f;
         #endregion
-               
-             
+
+
         public override void Init()
         {
             base.Init();
@@ -558,32 +559,35 @@ namespace Invector.vCharacterController.AI
             {
                 return;
             }
-
-            if (_capsuleCollider != null)
+            FunctionTimer.Create(() =>
             {
-                Destroy(_capsuleCollider);
-            }
+                if (_capsuleCollider != null)
+                {
+                    Destroy(_capsuleCollider);
+                }
 
-            if (_rigidbody != null)
-            {
-                Destroy(_rigidbody);
-            }
+                if (_rigidbody != null)
+                {
+                    Destroy(_rigidbody);
+                }
 
-            if (animator != null)
-            {
-                Destroy(animator);
-            }
+                if (animator != null)
+                {
+                    Destroy(animator);
+                }
 
-            if (agent != null)
-            {
-                Destroy(agent);
-            }
+                if (agent != null)
+                {
+                    Destroy(agent);
+                }
 
-            var comps = GetComponents<MonoBehaviour>();
-            for (int i = 0; i < comps.Length; i++)
-            {
-                Destroy(comps[i]);
-            }
+                var comps = GetComponents<MonoBehaviour>();
+                for (int i = 0; i < comps.Length; i++)
+                {
+                    Destroy(comps[i]);
+                }
+            }, RemoveAfterTimeComponents);
+
         }
 
         /// <summary>

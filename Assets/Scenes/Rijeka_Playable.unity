@@ -275,11 +275,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -549,11 +553,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -717,6 +725,14 @@ PrefabInstance:
     - target: {fileID: 3438300538460707591, guid: 039047062e081f5488ed0b323851a86d, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671696958478547032, guid: 039047062e081f5488ed0b323851a86d, type: 3}
+      propertyPath: fieldOfView
+      value: 219
+      objectReference: {fileID: 0}
+    - target: {fileID: 6671696958478547032, guid: 039047062e081f5488ed0b323851a86d, type: 3}
+      propertyPath: selectedToolbar
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6671696959812401464, guid: 039047062e081f5488ed0b323851a86d, type: 3}
       propertyPath: m_Radius
@@ -1087,11 +1103,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -1157,11 +1177,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -1860,11 +1884,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -2018,11 +2046,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -2218,11 +2250,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -2781,11 +2817,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -2931,11 +2971,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -3159,11 +3203,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -3744,7 +3792,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 352567441}
         m_TargetAssemblyTypeName: AllEvents, Assembly-CSharp
-        m_MethodName: EndFirstWaweEvent
+        m_MethodName: EndSecondWaweEvent
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4961,12 +5009,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11438314, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
+      propertyPath: healthRecovery
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11438314, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
       propertyPath: selectedToolbar
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11438314, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
       propertyPath: freeSpeed.walkSpeed
       value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 11438314, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
+      propertyPath: healthRecoveryDelay
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11493398, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
       propertyPath: alwaysAiming
@@ -4994,7 +5050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1213861448, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 20.00003
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 224000010556497382, guid: a5d9d3c24abccf44791e1847b287c74c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6427,11 +6483,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -7330,11 +7390,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -7890,11 +7954,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -8107,11 +8175,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -8590,11 +8662,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -9246,11 +9322,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -9856,11 +9936,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -10277,11 +10361,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -11105,11 +11193,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302266631509523990, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: m_LocalPosition.y
@@ -12473,11 +12565,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -12776,11 +12872,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -12846,11 +12946,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -12916,11 +13020,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -13377,11 +13485,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -13654,11 +13766,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -14365,11 +14481,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -14578,11 +14698,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -14796,11 +14920,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -15169,11 +15297,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -16017,11 +16149,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -16484,11 +16620,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -16938,11 +17078,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -17292,11 +17436,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -18738,11 +18886,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302266631509523990, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: m_LocalPosition.y
@@ -19799,11 +19951,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -19869,11 +20025,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -20890,11 +21050,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -21147,11 +21311,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -21828,11 +21996,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -22041,11 +22213,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -23284,11 +23460,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -23726,11 +23906,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -24325,11 +24509,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302266631509523990, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: m_LocalPosition.y
@@ -25372,11 +25560,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -25629,11 +25821,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -25777,11 +25973,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -26279,11 +26479,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -26958,11 +27162,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -27028,11 +27236,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -27098,11 +27310,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -28103,11 +28319,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -28772,11 +28992,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -28847,11 +29071,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -29454,11 +29682,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3302266631509523990, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: m_LocalPosition.y
@@ -31230,11 +31462,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -31314,11 +31550,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -31546,11 +31786,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -31908,11 +32152,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
@@ -31993,11 +32241,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: selectedToolbar
-      value: 0
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
+      propertyPath: distanceToLostTarget
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3219260823022944515, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}
       propertyPath: removeComponentsAfterDie
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b566d1b8135efa24c8ccfa9a89accb99, type: 3}

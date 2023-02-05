@@ -10,7 +10,15 @@ namespace Invector.vCharacterController
 
         internal virtual void UpdateCount(vThrowManager throwManager)
         {
-            currentThrowCount.text = throwManager.currentThrowObject.ToString();
+            if(throwManager.currentThrowObject> throwManager.maxThrowObjects)
+            {
+                currentThrowCount.text = throwManager.maxThrowObjects.ToString();
+            }
+            else
+            {
+                currentThrowCount.text = throwManager.currentThrowObject.ToString();
+            }
+
             maxThrowCount.text = throwManager.maxThrowObjects.ToString();
         }
     }
