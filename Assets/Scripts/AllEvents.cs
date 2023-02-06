@@ -97,10 +97,11 @@ public class AllEvents : MonoBehaviour
 
     public void EndSecondWaweEvent()
     {
-        ContValBarricadeEnd.OpenBarricade();
-        ContLitTheWay.SetTrigger("TurnOn");
+        StartVictoryEvent();
+        //ContValBarricadeEnd.OpenBarricade();
+        //ContLitTheWay.SetTrigger("TurnOn");
         //barikade se uniste
-        zombieCounterTito.gameObject.SetActive(true);
+        //zombieCounterTito.gameObject.SetActive(true);
 
     }
 

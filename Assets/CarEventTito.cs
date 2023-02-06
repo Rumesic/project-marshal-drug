@@ -37,7 +37,7 @@ public class CarEventTito : MonoBehaviour
 
     public void StartCarAnim()
     {
-        anim.Play();
+        anim.Play("CarDriveAway");
         EnableZombiesAndPlayer();
     }
 
