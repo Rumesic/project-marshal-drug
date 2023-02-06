@@ -10,7 +10,6 @@ public class ZombieCounter : MonoBehaviour
     UnityEvent eventValGotov;
     bool activatedOnce = false;
     public int numberCounter = 8;
-    bool activationForZombies = false;
 
     public void ActivateZombies()
     {

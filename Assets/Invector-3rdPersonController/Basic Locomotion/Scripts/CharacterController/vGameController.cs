@@ -9,6 +9,8 @@ namespace Invector
     [vClassHeader("Simple GameController Example", openClose = false)]
     public class vGameController : vMonoBehaviour
     {
+
+        public SceneManagement SceneManagement;
         [System.Serializable]
         public class OnRealoadGame : UnityEngine.Events.UnityEvent { }
         [vHelpBox("Assign your Character Prefab to be instantiate at the SpawnPoint, leave it unassigned to Restart the Scene instead")]
@@ -36,6 +38,8 @@ namespace Invector
 
         protected virtual void Start()
         {
+            SceneManagement = GameObject.FindObjectOfType<SceneManagement>(true);
+
             if (instance == null)
             {
                 instance = this;
@@ -327,19 +331,18 @@ namespace Invector
         /// </summary>
         public virtual void ResetScene()
         {
-            var sceneManagement = GameObject.FindObjectOfType<SceneManagement>(true);
 
-            if (sceneManagement != null)
-            {
-                sceneManagement.gameObject.SetActive(true);
-                return;
-            }
+           
 
             if (oldPlayer)
             {
                 DestroyPlayerComponents(oldPlayer);
             }
-
+             if (SceneManagement != null)
+            {
+                SceneManagement.gameObject.SetActive(true);
+                return;
+            }
             var scene = SceneManager.GetActiveScene();
             SceneManager.LoadScene(scene.name);
 

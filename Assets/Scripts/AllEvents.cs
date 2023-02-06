@@ -97,9 +97,9 @@ public class AllEvents : MonoBehaviour
 
     public void EndSecondWaweEvent()
     {
-        StartVictoryEvent();
-        //ContValBarricadeEnd.OpenBarricade();
-        //ContLitTheWay.SetTrigger("TurnOn");
+       
+        ContValBarricadeEnd.OpenBarricade();
+        ContLitTheWay.SetTrigger("TurnOn");
         //barikade se uniste
         //zombieCounterTito.gameObject.SetActive(true);
 
@@ -108,8 +108,10 @@ public class AllEvents : MonoBehaviour
     [ContextMenu("StartBossFight")]
     public void StartBossFight()
     {
+        StartVictoryEvent();
+
         //mrtvi kanal
-        zombieCounterCont.SetActive(false);
+      /*  zombieCounterCont.SetActive(false);
 
         //player loses control
         //animation starts 
@@ -127,7 +129,7 @@ public class AllEvents : MonoBehaviour
         //  dialogAnim.SetTrigger("DialogIntro");
 
         Debug.Log("Start Boss fight");
-
+      */
     }
 
     public void StartVictoryEvent()
