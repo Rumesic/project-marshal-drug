@@ -1,3 +1,4 @@
+using com.ootii.Cameras;
 using Invector.vCharacterController;
 using Invector.vCharacterController.TopDownShooter;
 using System.Collections;
@@ -16,14 +17,16 @@ public class AllEvents : MonoBehaviour
     public MoveBarricade ContValBarricadeEnd;
     public Animator ContLitTheWay;
     public GameObject zombieCounterCont;
-    public GameObject zombieCounterTito;
+    [Header("Tito event")]
     public CarEventTito titoEvents;
+    public Transform titoFollow;
+    public GameObject zombieCounterTito;
+    public CameraController camerCont;
 
     Animator dialogAnim;
 
     [SerializeField]
     vTopDownShooterInput inputScript;
-    vThirdPersonController moveControl;
 
     [SerializeField]
     AudioMixer audioMixer;
@@ -108,28 +111,32 @@ public class AllEvents : MonoBehaviour
     [ContextMenu("StartBossFight")]
     public void StartBossFight()
     {
-        StartVictoryEvent();
+        //StartVictoryEvent();
 
         //mrtvi kanal
-      /*  zombieCounterCont.SetActive(false);
-
+        zombieCounterCont.SetActive(false);
+       // camerCont.Anchor = titoEvents.transform;
         //player loses control
         //animation starts 
         //bring black screen top and down
         //profile picture placeholder fade in
         //Animate text left to right
+
         //Add voice
         ContValBarricadeEnd.CloseBarricade();
         ContLitTheWay.SetTrigger("TurnOff");
 
         zombieCounterTito.SetActive(true);
         LoseControlPlayer();
+        camerCont.GetComponent<CameraAnimationsForTito>().MoveToATitoPos();
 
         titoEvents.StartGovor();
+        //camerCont.Anchor = titoFollow;
+
         //  dialogAnim.SetTrigger("DialogIntro");
 
         Debug.Log("Start Boss fight");
-      */
+      
     }
 
     public void StartVictoryEvent()
@@ -148,11 +155,12 @@ public class AllEvents : MonoBehaviour
     public void LoseControlPlayer()
     {
         inputScript.SetLockAllInput(true);
+       // inputScript.enabled = false;
     }
 
     public void GainControlPlayer()
     {
-        inputScript.SetLockAllInput(false);
+        camerCont.GetComponent<CameraAnimationsForTito>().MoveToAPlayerPos();
     }
 
 

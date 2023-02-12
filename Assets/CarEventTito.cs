@@ -13,35 +13,40 @@ public class CarEventTito : MonoBehaviour
 
     [SerializeField] float trajanjeGovora;
     [SerializeField] float trajanjePaljenja;
+
+    [SerializeField] Transform camera;
   
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     [ContextMenu("StartGovor")]
     public void StartGovor()
     {
+
         DisableZombiesAndPlayer();
         sourceGovor.PlayOneShot(sourceGovor.clip);
+
+
+      /*  camera.SetParent(Camera.main.transform.parent);
+        camera.transform.position = Camera.main.transform.position;
+
+        camera.gameObject.SetActive(true);*/
         FunctionTimer.Create(StartCar, trajanjeGovora);
     }
 
+    [ContextMenu("StartCar")]
     public void StartCar()
     {
+
         sourceCar.PlayOneShot(sourceCar.clip);
         FunctionTimer.Create(StartCarAnim, trajanjePaljenja);
     }
-
+    [ContextMenu("CarDriveAway")]
     public void StartCarAnim()
     {
         anim.Play("CarDriveAway");
-        EnableZombiesAndPlayer();
+
     }
 
-    public void EnableZombiesAndPlayer()
+    public void CardDroveAway()
     {
         enableZombiesAndPlayer?.Invoke();
     }

@@ -87,7 +87,7 @@ namespace Invector.vCharacterController.AI
                 {
                     sphereSensor.CheckTargetsAround(fieldOfView, minDetectDistance, maxDetectDistance, tagsToDetect, layersToDetect, sortTargetFromDistance);
                     var vChar = sphereSensor.GetTargetvCharacter();
-                    if (vChar != null && vChar.currentHealth <= 100)
+                    if (vChar != null && vChar.currentHealth < 100)
                     {
                         currentTarget.transform = vChar.transform;
                         currentTarget.character = vChar;
@@ -113,7 +113,7 @@ namespace Invector.vCharacterController.AI
                 return false;
             }
 
-            if (currentTarget.character.currentHealth > 0)
+            if (currentTarget.character.currentHealth < 100)
             {
                 return true;
             }

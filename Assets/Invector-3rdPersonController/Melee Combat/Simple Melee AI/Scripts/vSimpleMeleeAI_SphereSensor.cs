@@ -53,7 +53,7 @@ namespace Invector.vCharacterController.AI
                 if (targetsInArea.Count > 0)
                 {
                     var vChar = targetsInArea[0].GetComponent<vIHealthController>();
-                    if (vChar != null && vChar.currentHealth > 0)
+                    if (vChar != null && vChar.currentHealth < 100)
                     {
                         return vChar;
                     }

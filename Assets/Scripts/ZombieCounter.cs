@@ -26,7 +26,7 @@ public class ZombieCounter : MonoBehaviour
         {
           return; }
 
-        if(transform.childCount< numberCounter)
+        if(transform.childCount== numberCounter)
         {
             activatedOnce = true;
             eventValGotov?.Invoke();
