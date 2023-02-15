@@ -128,7 +128,7 @@ public class AllEvents : MonoBehaviour
 
         zombieCounterTito.SetActive(true);
         LoseControlPlayer();
-        camerCont.GetComponent<CameraAnimationsForTito>().MoveToATitoPos();
+        //camerCont.GetComponent<CameraAnimationsForTito>().MoveToATitoPos();
 
         titoEvents.StartGovor();
         //camerCont.Anchor = titoFollow;
@@ -160,7 +160,9 @@ public class AllEvents : MonoBehaviour
 
     public void GainControlPlayer()
     {
-        camerCont.GetComponent<CameraAnimationsForTito>().MoveToAPlayerPos();
+        vTopDownShooterInput input = FindObjectOfType<vTopDownShooterInput>();
+        input.SetLockAllInput(false);
+        //camerCont.GetComponent<CameraAnimationsForTito>().MoveToAPlayerPos();
     }
 
 

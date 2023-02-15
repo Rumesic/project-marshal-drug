@@ -1,3 +1,4 @@
+using com.ootii.Cameras;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,13 +15,14 @@ public class CarEventTito : MonoBehaviour
     [SerializeField] float trajanjeGovora;
     [SerializeField] float trajanjePaljenja;
 
-    [SerializeField] Transform camera;
-  
+    [SerializeField] CameraController cam;
+    [SerializeField] Transform player;
+    [SerializeField] Transform limuzina;
 
     [ContextMenu("StartGovor")]
     public void StartGovor()
     {
-
+        cam.Anchor = limuzina;
         DisableZombiesAndPlayer();
         sourceGovor.PlayOneShot(sourceGovor.clip);
 
@@ -49,6 +51,7 @@ public class CarEventTito : MonoBehaviour
     public void CardDroveAway()
     {
         enableZombiesAndPlayer?.Invoke();
+        cam.Anchor = player;
     }
 
     public void DisableZombiesAndPlayer()
